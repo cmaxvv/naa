@@ -1,0 +1,4 @@
+#!/bin/bash
+rm out/* -fr;
+php test_dot.php > out/test.dot &&  dot -Tpng out/test.dot -o out/test.png && display out/test.png
+php test_gen.php > out/test.php && more out/test.php
