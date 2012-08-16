@@ -14,7 +14,7 @@ interface YC_ATM_Template_Node_Interface {
 
 
 
-class YC_ATM_Template_Render {
+class Template_Render {
 
     public function render($str, $params) {
         $_lexer = new YC_ATM_Template_Lexer();

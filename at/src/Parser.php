@@ -1,5 +1,5 @@
 <?php
-abstract class YC_ATM_Template_Parser implements YC_ATM_Template_Parser_Interface
+abstract class Template_Parser implements YC_ATM_Template_Parser_Interface
 {
     protected $_rawData;
 

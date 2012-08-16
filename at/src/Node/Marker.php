@@ -1,5 +1,5 @@
 <?php
-class YC_ATM_Template_Node_Marker extends YC_ATM_Template_Node {
+class Template_Node_Marker extends YC_ATM_Template_Node {
 
     const FORMAT_CLASS_PREFIX = 'YC_ATM_Template_Format_';
     const FUNCTION_CLASS_PREFIX = 'YC_ATM_Template_Function_';

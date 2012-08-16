@@ -1,5 +1,5 @@
 <?php
-class YC_ATM_Template_Token implements YC_ATM_Template_Token_Interface {
+class Template_Token implements YC_ATM_Template_Token_Interface {
 
     const LEFT_DELIMITER = "{";
     const LEFT_DELIMITER_ESCAPE = "{{";

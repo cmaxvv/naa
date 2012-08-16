@@ -1,5 +1,5 @@
 <?php
-class YC_ATM_Template_Lexer
+class Template_Lexer
 {
     const STATE_TEXT = 1;
     const STATE_ESCAPE = 2;

@@ -1,5 +1,5 @@
 <?php
-class YC_ATM_Template_Format_Default{
+class Template_Format_Default{
 
     public function money($amount) {
         return round($amount);

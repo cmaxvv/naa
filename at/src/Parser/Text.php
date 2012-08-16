@@ -1,5 +1,5 @@
 <?php
-class YC_ATM_Template_Parser_Text extends YC_ATM_Template_Parser {
+class Template_Parser_Text extends YC_ATM_Template_Parser {
 
     function doParser() {
         $_node = new YC_ATM_Template_Node_Text();

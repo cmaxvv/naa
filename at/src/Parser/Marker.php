@@ -5,7 +5,7 @@
  *  {fmt#func:var1,var2}
  *  {ns.fmt#ns.func:var1,var2}
  */
-class YC_ATM_Template_Parser_Marker extends YC_ATM_Template_Parser {
+class Template_Parser_Marker extends YC_ATM_Template_Parser {
 
     function doParser() {
         $_node = new YC_ATM_Template_Node_Marker();

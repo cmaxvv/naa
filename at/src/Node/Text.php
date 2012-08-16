@@ -1,5 +1,5 @@
 <?php
-class YC_ATM_Template_Node_Text extends YC_ATM_Template_Node{
+class Template_Node_Text extends YC_ATM_Template_Node{
 
     private $_text;
 
