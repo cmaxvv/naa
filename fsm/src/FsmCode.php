@@ -73,11 +73,12 @@ FUNC;
 		$actions = $this->_def->actions;
 		$states = $this->_def->states;
 		foreach($actions as $action => $flows) {
+			$support_prev_states = '';
 			foreach($flows as $flow) {
 				for($i = 0; $i < sizeof($states); $i ++) {
 					if($flow[0] == $states[$i]) {
 						$c = "self::STATUS_" . strtoupper($states[$i]);
-						$support_prev_states = "$c,"; 
+						$support_prev_states .= "$c,"; 
 					}
 				}
 			}
